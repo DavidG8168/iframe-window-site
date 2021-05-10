@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Window 2</title>
+
+</head>
+<body>
+
+<script>window.onClick = function () {
+	window.top.window.open('window3.html', '_self');
+};</script>
+<div class="button-wrapper">
+	<button onclick="onClick()">Click me</button>
+</div>
+
+</body>
+</html>
